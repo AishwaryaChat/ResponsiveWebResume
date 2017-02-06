@@ -1,0 +1,72 @@
+body{
+  padding: 20px;
+  background-color: #C0C3E8;
+}
+.jumbo{
+font-family: 'Sansita', sans-serif;
+padding-bottom: -50px;
+}
+
+#about{
+  background-color: #7780ED;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: -30px;
+  padding: 10px;
+}
+#academics{
+  background-color: #7F72DC;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+}
+#contact{
+  background-color: #7780ED;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+.font-face{
+  font-family: 'Droid Serif', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+.light{
+  margin-top: -5px;
+}
+table, th, td{
+  border: 2px solid #7780ED;
+  padding: 15px;
+}
+.box {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6540F0;
+    border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+.box{
+  font-family: 'entypo', sans-serif;
+}
+
+#github{
+  font-family: 'zocial', sans-serif;
+}
